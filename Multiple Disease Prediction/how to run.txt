@@ -1,0 +1,20 @@
+first run this command of vs terminal
+pip install -r requirements.txt
+
+after this run this command on termminal
+python project.py 
+
+if file name change this this command use
+python (file name).py
+
+use this link to download dataset
+https://www.kaggle.com/datasets/mathchi/diabetes-data-set
+https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+https://www.kaggle.com/datasets/vikasukani/parkinsons-disease-data-set
+
+check this line on file change the path of dataset with your data set
+diabetes_model = pickle.load(open("E:/ayush/ayush/saved_models/diabetes_model.sav", 'rb' ))
+
+heart_disease_model = pickle.load(open("E:/ayush/ayush/saved_models/heart_disease_model.sav", 'rb'))
+
+parkinsons_model = pickle.load(open("E:/ayush/ayush/saved_models/parkinsons_model.sav", 'rb'))
